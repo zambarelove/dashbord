@@ -13,7 +13,7 @@
 </head>
 <body class="bg-[#EEF4FF] selection:bg-[#D8E6FE]">
     <!-- Sticky Button Start Here -->
-    <div class="sticky top-0 w-full h-12 bg-white flex items-center pl-4 space-x-1">
+    <div class="sticky top-0 w-full h-12 z-10 bg-white flex items-center pl-4 space-x-1">
         <button type="button" class="px-[1rem] py-0 border border-1 border-gray-300 rounded font-sofia text-blue-500 md:text-[0.625rem] md:leading-[1.25rem] xl:text-[0.813rem] xl:leading-[1.875rem]">
             Save As
         </button>
@@ -46,7 +46,7 @@
     <!-- Dashbord Start Here -->
         <div class="container mx-auto w-[80rem] bg-white  rounded-lg mt-[1rem] px-8 pb-10" style="box-shadow: 0px 6px 10px #0003;">
             <!-- Section Heading -->
-            <div class="w-full py-[1.5rem] flex justify-between items-center">
+            <div class="py-[1.5rem] flex justify-between items-center">
                 <div>
                     <h3 class="font-[Nunito] text-[1.75rem] leading-[2.188rem] text-black">Scenarios (4)</h3>
                 </div>
@@ -59,134 +59,142 @@
             <!-- Section Heading -->
 
             <div class="mx-auto bg-[#F5F6F8] flex-col items-end pt-5 xl:px-[1.875rem] md:px-[0.938rem]">
-                <div class="flex justify-between items-stretch mx-auto">
-                    <div class="md:w-[44px] lg:w-[64px] xl:w-[80px] bg-white rounded-t-lg shadow-sm shadow-[#0002]"></div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0002]">
+                <div class="flex space-x-3.5">
+                    <div class="md:w-[45px] lg:w-[64px] xl:w-[80px] bg-white rounded-t-lg shadow-sm shadow-[#0003]"></div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0003]">
                         <div class="pt-4 px-2">
-                            <h2 class="font-[Nunito] font-semibold pb-2 border-b border-b-[#e5e5e5] text-[18px] leading-[23px]">
+                            <h2 class="font-[Nunito] font-semibold pb-2 border-b border-b-[#e5e5e5] tracking-wide text-[18px] leading-[23px]">
                                 Scenario 1
                             </h2>
                         </div>
-                        <div class="px-2 pb-3 pt-0.5">
+                        <div class="px-2 pb-3 pt-[0.188rem]">
                             <span class="text-[12px] font-[Nunito] text-[#666666]">Created By</span>
                             <div class="flex justify-between items-center">
                                 <div>
                                     <h6 class="font-[Nunito] text-[13px] leading-[20px]">Andrew Flintoff</h6>
                                 </div>
                                 <div>
-                                    <p class="font-[Nunito] font-semibold bg-gray-200 rounded-full px-2 py-[0.25rem] text-[0.75rem] leading-normal">Internal</p>
+                                    <p class="font-[Nunito] font-semibold bg-[#F3F3F3] rounded-full px-2 py-[0.25rem] text-[0.75rem] leading-normal">Internal</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0003]">
                         <div class="pt-4 px-2">
-                            <h2 class="font-[Nunito] font-semibold pb-2.5 border-b border-b-[#e5e5e5] text-[18px] leading-[23px]">Scenario 2</h2>
+                            <h2 class="font-[Nunito] font-semibold pb-2 border-b border-b-[#e5e5e5] tracking-wide text-[18px] leading-[23px]">
+                                Scenario 2
+                            </h2>
                         </div>
-                        <div class="px-2">
-                            <span class="font-[Nunito] text-[12px] text-[#666666]">Created By</span>
+                        <div class="px-2 pb-3 pt-[0.188rem]">
+                            <span class="text-[12px] font-[Nunito] text-[#666666]">Created By</span>
                             <div class="flex justify-between items-center">
                                 <div>
                                     <h6 class="font-[Nunito] text-[13px] leading-[20px]">Andrew Flintoff</h6>
                                 </div>
                                 <div>
-                                    <p class="font-[Nunito] font-semibold bg-gray-200 rounded-full px-2 py-[0.25rem] text-[0.75rem] leading-normal">Internal</p>
+                                    <p class="font-[Nunito] font-semibold bg-[#F3F3F3] rounded-full px-2 py-[0.25rem] text-[0.75rem] leading-normal">Internal</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0003]">
                         <div class="pt-4 px-2">
-                            <h2 class="font-semibold pb-2.5 border-b border-b-[#e5e5e5] text-[18px] leading-[23px]">Scenario 3</h2>
+                            <h2 class="font-[Nunito] font-semibold pb-2 border-b border-b-[#e5e5e5] tracking-wide text-[18px] leading-[23px]">Scenario 3</h2>
                         </div>
-                        <div class="px-2">
-                            <span class="font-[Nunito] text-[12px] text-[#666666]">Created By</span>
+                        <div class="px-2 pb-3 pt-[0.188rem]">
+                            <span class="text-[12px] font-[Nunito] text-[#666666]">Created By</span>
                             <div class="flex justify-between items-center">
                                 <div>
                                     <h6 class="font-[Nunito] text-[13px] leading-[20px]">Andrew Flintoff</h6>
                                 </div>
                                 <div>
-                                    <p class="font-[Nunito] font-semibold bg-gray-200 rounded-full px-2 py-[0.25rem] text-[0.75rem] leading-normal">Internal</p>
+                                    <p class="font-[Nunito] font-semibold bg-[#F3F3F3] rounded-full px-2 py-[0.25rem] text-[0.75rem] leading-normal">Internal</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16.563rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0003]">
                         <div class="pt-4 px-2">
-                            <h2 class="font-[Nunito] font-semibold pb-2.5 border-b border-b-[#e5e5e5] text-[18px] leading-[23px]">Scenario 4</h2>
+                            <h2 class="font-[Nunito] font-semibold pb-2 border-b border-b-[#e5e5e5] tracking-wide text-[18px] leading-[23px]">
+                                Scenario 4
+                            </h2>
                         </div>
-                        <div class="px-2">
-                            <span class="font-[Nunito] text-[12px] text-[#666666]">Created By</span>
+                        <div class="px-2 pb-3 pt-[0.188rem]">
+                            <span class="text-[12px] font-[Nunito] text-[#666666]">Created By</span>
                             <div class="flex justify-between items-center">
                                 <div>
                                     <h6 class="font-[Nunito] text-[13px] leading-[20px]">Andrew Flintoff</h6>
                                 </div>
                                 <div>
-                                    <p class="font-[Nunito] font-semibold bg-gray-200 rounded-full px-2 py-[0.25rem] text-[0.75rem] leading-normal">Internal</p>
+                                    <p class="font-[Nunito] font-semibold bg-[#F3F3F3] rounded-full px-2 py-[0.25rem] text-[0.75rem] leading-normal">Internal</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-between items-stretch mx-auto">
-                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0002]">
+                <div class="flex space-x-3.5">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0003]">
                         <div class="md:-ml-3 lg:-ml-4 md:w-[35px] lg:w-[50px] xl:w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 md:left-4 lg:left-6 xl:left-7"></div>
                         <img src="./assets/icon/icons/dollar.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
-                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:-text-[0.875rem] xl:text-[1rem] xl:leading-[1.25rem]">$ 1,135,000</h3>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                $ 1,135,000
+                            </h3>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
-                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">$ 1,135,000</h3>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                $ 1,135,000
+                            </h3>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#ffa500] border-l-[5px] border-l-[#ffa500] rounded shadow shadow-[#0003]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#ffa500] border-l-[5px] border-l-[#ffa500] rounded shadow shadow-[#0003]">
                             <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]"> $ 1,135,000</h3>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#FF0000] border-l-[5px] rounded shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16.563rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#FF0000] border-l-[5px] rounded shadow-sm shadow-[#0002]">
                             <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">$ 1,135,000</h3>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-between items-stretch mx-auto">
+                <div class="flex space-x-3.5">
                     <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0002]">
                         <div class="md:-ml-3 lg:-ml-4 md:w-[35px] lg:w-[50px] xl:w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 md:left-4 lg:left-6 xl:left-7"></div>
                         <img src="../assets/icon/icons/time.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
                             <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 36 Months
                             </h3>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
                             <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 30 Months
                             </h3>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
                             <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 26 Months
                             </h3>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16.563rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
                             <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 22 Months
                             </h3>
@@ -194,13 +202,13 @@
                     </div>
                 </div>
 
-                <div class="flex justify-between items-stretch mx-auto">
-                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0002]">
+                <div class="flex space-x-3.5">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0003]">
                         <div class="md:-ml-3  lg:-ml-4 md:w-[35px] lg:w-[50px] xl:w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 md:left-4 xl:left-7 lg:left-6"></div>
                         <img src="/assets/icon/icons/persent-new.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow shadow-[#0002] md:space-x-2 lg:space-x-3">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow shadow-[#0002] md:space-x-2 lg:space-x-3">
                             <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 26%
                             </p>
@@ -210,8 +218,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002] md:space-x-2 lg:space-x-3">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002] md:space-x-2 lg:space-x-3">
                             <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 28%
                             </p>
@@ -221,8 +229,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002] md:space-x-2 lg:space-x-3">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002] md:space-x-2 lg:space-x-3">
                             <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 30%
                             </p>
@@ -232,25 +240,25 @@
                             </p>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16.563rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
                             <h3  class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">---</h3>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-between items-stretch mx-auto">
-                    <div class="md:px-[0.438rem] lg:px-[1.063rem] xl:px-[1.563rem] relative bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0002]">
+                <div class="flex space-x-3.5">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] xl:px-[1.563rem] relative bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0003]">
                         <div class="md:-ml-3 lg:-ml-4 md:w-[35px] lg:w-[50px] xl:w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 md:left-4 lg:left-6 xl:left-7"></div>
                         <img src="/assets/icon/icons/up.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 rounded border border-[#b3b3b3] md:space-x-2 lg:space-x-3 shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 rounded border border-[#b3b3b3] md:space-x-2 lg:space-x-3 shadow-sm shadow-[#0002]">
                             <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">---</p>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-2 lg:space-x-3 shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-2 lg:space-x-3 shadow-sm shadow-[#0002]">
                             <p class="font-[Nunito] font-[700] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 14%
                             </p>
@@ -260,8 +268,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-2  lg:space-x-3 shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-2  lg:space-x-3 shadow-sm shadow-[#0002]">
                             <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 18%
                             </p>
@@ -271,8 +279,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002] md:space-x-2 lg:space-x-3">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16.563rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002] md:space-x-2 lg:space-x-3">
                             <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 22%
                             </p>
@@ -284,115 +292,115 @@
                     </div>
                 </div>
 
-                <div class="flex justify-between items-stretch mx-auto">
-                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-2 lg:pt-1 xl:pt-3 shadow-sm shadow-[#0002]">
+                <div class="flex space-x-3.5">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-2 lg:pt-1 xl:pt-3  shadow-sm shadow-[#0003]">
                         <div class="md:-ml-3 lg:-ml-4 md:w-[35px] lg:w-[50px] xl:w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 md:left-4 lg:left-6 xl:left-7"></div>
                         <img src="/assets/icon/icons/dollar-with-hands.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
                             <div class="bg-[#C9C9C9] w-[90%] p-1 rounded-full relative">
                                 <span class="inline-block bg-[#4EBC9B] w-[78%] h-full absolute top-0 left-0  rounded-full"></span>
                             </div>
-                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem]">
                                 78%
                             </span>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
                             <div class="bg-[#C9C9C9] w-[90%] p-1 rounded-full relative">
                                 <span class="inline-block bg-[#4EBC9B] w-[78%] h-full absolute top-0 left-0  rounded-full"></span>
                             </div>
-                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem]">
                                 78%
                             </span>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
                             <div class="bg-[#C9C9C9] w-[90%] p-1 rounded-full relative">
                                 <span class="inline-block bg-[#4EBC9B] w-[78%] h-full absolute top-0 left-0  rounded-full"></span>
                             </div>
-                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem]">
                                 78%
                             </span>
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16.563rem] bg-white pb-3 shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
                             <div class="bg-[#C9C9C9] w-[90%] p-1 rounded-full relative">
                                 <span class="inline-block bg-[#4EBC9B] w-[78%] h-full absolute top-0 left-0  rounded-full"></span>
                             </div>
-                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem]">
                                 78%
                             </span>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-between items-stretch mx-auto">
-                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-3 shadow-sm shadow-[#0002]">
+                <div class="flex space-x-3.5">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-3 shadow-sm shadow-[#0003]">
                         <div class="md:-ml-3 lg:-ml-4 md:w-[35px] lg:w-[50px] xl:w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 md:left-4 lg:left-6 xl:left-7"></div>
                         <img src="/assets/icon/icons/users.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white lg:pt-1 lg:pb-1.5 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2 rounded shadow-sm shadow-[#0002]">
-                            <img src="/assets/images/chart-1.png" class="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] pb-2 bg-white shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center px-2.5 py-1 mx-auto border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png"  class="w-[100%]">
+                        </div>
+                    </div>  
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] pb-2 bg-white shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center px-2.5 py-1 mx-auto border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png"  class="w-[100%]">
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white lg:pt-1 lg:pb-1.5 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2 rounded shadow-sm shadow-[#0002]">
-                            <img src="/assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] pb-2 bg-white shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center px-2.5 py-1 mx-auto border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png"  class="w-[100%]">
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white lg:pt-1 lg:pb-1.5 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2 rounded shadow-sm shadow-[#0002]">
-                            <img src="/assets/images/chart-1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white lg:pt-1 lg:pb-1.5 shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2 rounded shadow-sm shadow-[#0002]">
-                            <img src="/assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16.563rem] pb-2 bg-white shadow-sm shadow-[#0003]">
+                        <div class="bg-[#F5F6F8] w-[94%]  flex justify-center items-center px-2.5 py-1 mx-auto border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png"  class="md:w-[100%] xl:w-[95%]">
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-between items-stretch mx-auto">
-                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-3 shadow-sm shadow-[#0002]">
-                        <div class="md:-ml-3 lg:-ml-6 md:w-[35px] lg:w-[50px] xl:w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 md:left-4 lg:left-8 xl:left-7"></div>
+                <div class="flex space-x-3.5">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-3 shadow-sm shadow-[#0003] rounded-b-lg">
+                        <div class="md:-ml-3 lg:-ml-4 md:w-[35px] lg:w-[50px] xl:w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 md:left-4 lg:left-6 xl:left-7"></div>
                         <img src="/assets/icon/icons/causion.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pt-1 pb-2 rounded-b shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2  rounded">
-                            <img src="/assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] pb-2 bg-white shadow-sm shadow-[#0003] rounded-b-lg">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center p-2.5 mx-auto border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png" class="w-[100%]">
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pt-1 pb-2 rounded-b shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2  rounded">
-                            <img src="./assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] pb-2 bg-white shadow-sm shadow-[#0003] rounded-b-lg">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center p-2.5 mx-auto border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png"  class="w-[100%]">
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pt-1 pb-2 rounded-b shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2  rounded">
-                            <img src="/assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[15.688rem] pb-2 bg-white shadow-sm shadow-[#0003] rounded-b-lg">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center p-2.5 mx-auto border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png"  class="w-[100%]">
                         </div>
                     </div>
-                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pt-1 pb-2 rounded-b shadow-sm shadow-[#0002]">
-                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2  rounded">
-                            <img src="./assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16.563rem] pb-2 bg-white shadow-sm shadow-[#0003] rounded-b-lg">
+                        <div class="bg-[#F5F6F8] w-[94%] flex justify-center items-center p-2.5 mx-auto border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png"  class="md:w-[100%] xl:w-[95%]">
                         </div>
                     </div>
                 </div>
                 
-                <div class="flex justify-between items-stretch mx-auto mt-1">
+                <div class="flex gap-x-1.5 mx-auto mt-1">
                     <div class="md:pl-0 md:pr-1 lg:pl-0 lg:pr-2">
                         <span class="font-[Nunito] md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] font-[400]">Comments</span>
                     </div>
 
                     <div  class="border-r border-r-gray-200"></div>
 
-                    <div class="w-[15.688rem] py-2 pl-2">
+                    <div class="w-[15.625rem] py-2 pl-4">
                         <div>
                             <p class="font-[Nunito] md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] text-[#181818] font-[400]">
                                 This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
@@ -402,7 +410,7 @@
                     
                     <div  class="border-r border-r-gray-200"></div>
 
-                    <div class="w-[15.688rem] py-2 pl-2 ">
+                    <div class="w-[15.625rem] py-2 pl-2 ">
                         <div>
                             <p class="font-[Nunito]  md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] text-[#181818] font-[400]">
                                 This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
@@ -412,7 +420,7 @@
 
                     <div  class="border-r border-r-gray-200"></div>
 
-                    <div class="w-[15.688rem] py-2 pl-2">
+                    <div class="w-[15.625rem] py-2 pl-2">
                         <div>
                             <p class="font-[Nunito]  md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] text-[#181818] font-[400]">
                                 This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
@@ -422,7 +430,7 @@
 
                     <div  class="border-r border-r-gray-200"></div>
 
-                    <div class="w-[15.688rem] py-2 pl-2">
+                    <div class="w-[15.625rem] py-2 pl-2">
                         <div>
                             <p class="font-[Nunito]  md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] text-[#181818] font-[400]">
                                 This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
