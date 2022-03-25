@@ -6,39 +6,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="/dist/output.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../dist/output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
-<body class="bg-[#EEF4FF] selection:bg-[#D8E6FE]">
+<body class="bg-[#EEF4FF] selection:bg-[#D8E6FE] ">
     <!-- Sticky Button Start Here -->
     <div class="sticky top-0 w-full h-12 bg-white flex items-center pl-4 space-x-1">
-        <button type="button" class="w-[5rem] h-[2rem] border border-1 border-gray-300 rounded font-sofia text-blue-500 xl:text-[0.813rem] xl:leading-[1.875rem]">Save As</button>
-        <button type="button" class="w-[3.938rem] h-[2rem] border border-1 border-gray-300 rounded font-sofia text-blue-500 xl:text-[0.813rem] xl:leading-[1.875rem]">Save</button>
-        <button type="button" class="flex items-center justify-center w-[8rem] h-[2rem] border border-1 border-gray-300 rounded font-sofia text-black xl:text-[0.813rem] xl:leading-[1.875rem]">Status: <span class="text-blue-500 pl-1">Active</span> <span class="pl-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <button type="button" class="px-[1rem] py-0 border border-1 border-gray-300 rounded font-sofia text-blue-500 md:text-[0.625rem] md:leading-[1.25rem] xl:text-[0.813rem] xl:leading-[1.875rem]">
+            Save As
+        </button>
+
+        <button type="button" class="px-[1rem] py-0 border border-1 border-gray-300 rounded font-sofia text-blue-500 md:text-[0.625rem] md:leading-[1.25rem] xl:text-[0.813rem] xl:leading-[1.875rem]">
+            Save
+        </button>
+        <button type="button" class="flex items-center justify-center px-[1rem] py-0 border border-1 border-gray-300 rounded font-sofia text-black md:text-[0.625rem] md:leading-[1.25rem] xl:text-[0.813rem] xl:leading-[1.875rem]">
+            Status: <span class="text-[#1B4E8B] pl-1">Active</span> <span class="pl-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-          </svg></span></button>
+          </svg></span>
+        </button>
     </div>
     <!-- Sticky Button End Here -->
 
     <!-- Button Start Here -->
         <div class="flex justify-around items-center space-x-1 pt-[1.125rem]">
             <div>
-                <button type="button" class="font-sofia text-blue-500 hover:text-[#014486] bg-white hover:bg-[#F3F3F3] border border-[#c9c9c9] rounded xl:text-[0.813rem] xl:leading-[1.875rem] xl:font-[400] px-4">Two Column layout</button>
+                <button type="button" class="font-[Nunito] text-[#0176d3] hover:text-[#014486] bg-white hover:bg-[#F3F3F3] border border-[#c9c9c9] rounded md:text-[0.625rem] md:leading-[1.25rem] xl:text-[0.813rem] xl:leading-[1.875rem] xl:font-[400] px-4">Two Column layout</button>
 
-                <button type="button" class="font-sofia text-blue-500 hover:text-[#014486] bg-white hover:bg-[#F3F3F3] border border-[#c9c9c9] rounded xl:text-[0.813rem] xl:leading-[1.875rem] xl:font-[400] px-4">Three Column layout</button>
+                <button type="button" class="font-[Nunito] text-[#0176d3] hover:text-[#014486] bg-white hover:bg-[#F3F3F3] border border-[#c9c9c9] rounded md:text-[0.625rem] md:leading-[1.25rem] xl:text-[0.813rem] xl:leading-[1.875rem] xl:font-[400] px-4">Three Column layout</button>
 
-                <button type="button" class="font-sofia text-blue-500 hover:text-[#014486] bg-white hover:bg-[#F3F3F3] border border-[#c9c9c9] rounded xl:text-[0.813rem] xl:leading-[1.875rem] xl:font-[400] px-4">Four Column layout</button>
+                <button type="button" class="font-[Nunito] text-[#0176d3] hover:text-[#014486] bg-white hover:bg-[#F3F3F3] border border-[#c9c9c9] rounded md:text-[0.625rem] md:leading-[1.25rem] xl:text-[0.813rem] xl:leading-[1.875rem] xl:font-[400] px-4">Four Column layout</button>
                 
-                <button type="button" class="font-sofia text-blue-500 hover:text-[#014486] bg-white hover:bg-[#F3F3F3] border border-[#c9c9c9] rounded xl:text-[0.813rem] xl:leading-[1.875rem] xl:font-[400] px-4">Flexible Layout</button>
+                <button type="button" class="font-[Nunito] text-[#0176d3] hover:text-[#014486] bg-white hover:bg-[#F3F3F3] border border-[#c9c9c9] rounded md:text-[0.625rem] md:leading-[1.25rem] xl:text-[0.813rem] xl:leading-[1.875rem] xl:font-[400] px-4">Flexible Layout</button>
             </div>
         </div>
     <!-- Button End Here -->
 
     <!-- Dashbord Start Here -->
-        <div class="container mx-auto w-[80rem] bg-white shadow-xl rounded-lg xl:mt-[1.125rem] px-8 pb-80">
+        <div class="container mx-auto w-[80rem] bg-white  rounded-lg mt-[1rem] px-8 pb-10" style="box-shadow: 0px 6px 10px #0003;">
             <!-- Section Heading -->
-            <div class="w-full h-20 flex justify-between items-center">
+            <div class="w-full py-[1.5rem] flex justify-between items-center">
                 <div>
-                    <h3 class="font-sofia xl:text-[1.75rem] leading-[2.188rem] text-green-500">Scenarios (4)</h3>
+                    <h3 class="font-[Nunito] text-[1.75rem] leading-[2.188rem] text-black">Scenarios (4)</h3>
                 </div>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
@@ -48,614 +58,379 @@
             </div>
             <!-- Section Heading -->
 
-            <!-- Main Content Start Here -->
-                <!-- <div class="bg-[#F5F6F8] flex-col">
-                    <div class="flex flex-wrap w-full h-auto px-6 pt-5">
-                        <div class="w-[4.7rem] bg-white flex-col items-center pt-28 justify-between rounded-lg ml-2">
-                            <ul>
-                                <li class="border-t w-[70%] mx-auto p-3">
-                                    <img src="../assets/icon/icons/dollar.svg" alt="doller icon">
-                                </li>
-                                <li class="border-t w-[70%] mx-auto p-3">
-                                    <img src="../assets/icon/icons/time.svg" alt="clock icon">
-                                </li>
-                                <li class="border-t w-[70%] mx-auto p-3">
-                                    <img src="../assets/icon/icons/persent-new.svg" alt="divided icon">
-                                </li>
-                                <li class="border-t w-[70%] mx-auto p-3">
-                                    <img src="../assets/icon/icons/up.svg" alt="up icon">
-                                </li>
-                                <li class="border-t w-[70%] mx-auto p-3">
-                                    <img src="../assets/icon/icons/dollar-with-hands.svg" alt="doller with hands">
-                                </li>
-                                <li class="border-t w-[70%] mx-auto p-3">
-                                    <img src="../assets/icon/icons/users.svg" alt="user icon">
-                                </li>
-                                <li class="mt-40">
-                                    <img src="../assets/icon/icons/causion.svg" alt="causion icon">
-                                </li>
-                            </ul>
+            <div class="mx-auto bg-[#F5F6F8] flex-col items-end pt-5 xl:px-[1.875rem] md:px-[0.938rem]">
+                <div class="flex justify-between items-stretch mx-auto">
+                    <div class="md:w-[44px] lg:w-[64px] xl:w-[80px] bg-white rounded-t-lg shadow-sm shadow-[#0002]"></div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0002]">
+                        <div class="pt-4 px-2">
+                            <h2 class="font-[Nunito] font-semibold pb-2 border-b border-b-[#e5e5e5] text-[18px] leading-[23px]">
+                                Scenario 1
+                            </h2>
                         </div>
-
-                        <div class="w-[15.688rem] bg-white rounded-lg ml-4">
-                            <div class="pt-4 px-2">
-                                <h2 class="font-sofia text-[#181818] font-[700] xl:text-[1.125rem] xl:leading-[1.438rem] border-b border-gray-200 pb-2">Scenario 1</h2>
+                        <div class="px-2 pb-3 pt-0.5">
+                            <span class="text-[12px] font-[Nunito] text-[#666666]">Created By</span>
+                            <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="font-sofia text-[#666666] xl:text-[0.75rem] xl:leading-[1.125rem] inline-block pt-2">Created By</span>
-                                    <div class="flex justify-between">
-                                        <div>
-                                            <p class="font-sofia text-[#181818] font-[400] xl:text-[0.813rem] xl:leading-[1.25rem] pt-1">
-                                                Andrew Flintoff
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <p class="bg-[#F3F3F3] px-3 py-1 rounded-full text-[#181818] xl:text-[0.75rem] font-[600]">
-                                                Internal
-                                            </p>
-                                        </div>
-                                    </div>
+                                    <h6 class="font-[Nunito] text-[13px] leading-[20px]">Andrew Flintoff</h6>
                                 </div>
-                            </div>
-
-                            <div class="mt-3">
-                                <ul>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%]">
-                                        $ 1,135,000
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        36 Months
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="border-r border-gray-200 pr-2">
-                                            26%
-                                        </div>
-                                        <div class="pl-4">
-                                            $40,000
-                                        </div>
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        - - -
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="bg-red-700 w-[70%] h-2 rounded-full">
-                                            <span class="inline-block bg-green-600 w-[80%] h-1"></span>
-                                        </div>
-                                        <span class="inline-block pl-2 xl:text-[0.813rem] xl:leading-[1.25rem]">
-                                            78%
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                            <div class="mt-3 px-2">
-                                <div class=" border border-gray-300 rounded-lg bg-[#F5F6F8] mx-auto p-2">
-                                    <img src="../assets/images/chart-1.png" alt="chart img 1" class="h-[9.375rem]">
-                                </div>
-                                <div class="border border-gray-300 rounded-lg bg-[#F5F6F8] mx-auto p-2 mt-2">
-                                    <img src="../assets/images/chart-3.png" alt="chart img 1" class="h-[9.375rem]">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="w-[15.688rem] bg-white rounded-lg ml-4">
-                            <div class="pt-4 px-2">
-                                <h2 class="font-sofia text-[#181818] font-[700] xl:text-[1.125rem] xl:leading-[1.438rem] border-b border-gray-200 pb-2">Scenario 2</h2>
                                 <div>
-                                    <span class="font-sofia text-[#666666] xl:text-[0.75rem] xl:leading-[1.125rem] inline-block pt-2">
-                                        Created By
-                                    </span>
-                                    <div class="flex justify-between">
-                                        <div>
-                                            <p class="font-sofia text-[#181818] font-[400] xl:text-[0.813rem] xl:leading-[1.25rem] pt-1">
-                                                Andrew Flintoff
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <p class="bg-[#F3F3F3] px-3 py-1 rounded-full text-[#181818] xl:text-[0.75rem] font-[600]">
-                                                Internal
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="mt-3">
-                                <ul>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] ">
-                                        $ 1,135,000
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        30 Months
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="border-r border-gray-200 pr-2">
-                                            28%
-                                        </div>
-                                        <div class="pl-4">
-                                            $44,000
-                                        </div>
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="border-r border-gray-200 pr-2">
-                                            28%
-                                        </div>
-                                        <div class="pl-2">
-                                            $44,000
-                                        </div>
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="bg-red-700 w-[70%] h-2 rounded-full">
-                                            <span class="inline-block bg-green-600 w-[80%] h-1"></span>
-                                        </div>
-                                        <span class="inline-block pl-2 xl:text-[0.813rem] xl:leading-[1.25rem]">
-                                            78%
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="mt-3 px-2">
-                                <div class="border border-gray-300 rounded-lg bg-[#F5F6F8] mx-auto p-2">
-                                    <img src="../assets/images/chart-1.png" alt="chart img 1" class="h-[9.375rem]">
-                                </div>
-                                <div class="border border-gray-300 rounded-lg bg-[#F5F6F8] mx-auto p-2 mt-2">
-                                    <img src="../assets/images/chart-3.png" alt="chart img 4" class="h-[9.375rem]">
+                                    <p class="font-[Nunito] font-semibold bg-gray-200 rounded-full px-2 py-[0.25rem] text-[0.75rem] leading-normal">Internal</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="w-[15.688rem] bg-white rounded-lg ml-4">
-                            <div class="pt-4 px-2 ">
-                                <h2 class="font-sofia text-[#181818] font-[700] xl:text-[1.125rem] xl:leading-[1.438rem] border-b border-gray-200 pb-2">Scenario 3</h2>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0002]">
+                        <div class="pt-4 px-2">
+                            <h2 class="font-[Nunito] font-semibold pb-2.5 border-b border-b-[#e5e5e5] text-[18px] leading-[23px]">Scenario 2</h2>
+                        </div>
+                        <div class="px-2">
+                            <span class="font-[Nunito] text-[12px] text-[#666666]">Created By</span>
+                            <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="font-sofia text-[#666666] xl:text-[0.75rem] xl:leading-[1.125rem] inline-block pt-2">
-                                        Created By
-                                    </span>
-                                    <div class="flex justify-between">
-                                        <div>
-                                            <p class="font-sofia text-[#181818] font-[400] xl:text-[0.813rem] xl:leading-[1.25rem] pt-1">
-                                                Andrew Flintoff
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <p class="bg-[#F3F3F3] px-3 py-1 rounded-full text-[#181818] xl:text-[0.75rem] font-[600]">
-                                                Internal
-                                            </p>
-                                        </div>
-                                    </div>
+                                    <h6 class="font-[Nunito] text-[13px] leading-[20px]">Andrew Flintoff</h6>
                                 </div>
-                            </div>
-                            <div class="mt-3">
-                                <ul>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%]">
-                                        $ 1,135,000
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        26 Months
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="border-r border-gray-200 pr-2">
-                                            30%
-                                        </div>
-                                        <div class="pl-2">
-                                            $48,000
-                                        </div>
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="border-r border-gray-200 pr-2">
-                                            18%
-                                        </div>
-                                        <div class="pl-2">
-                                            $28,000
-                                        </div>
-                                    </li>
-                                <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="bg-red-700 w-[70%] h-2 rounded-full">
-                                            <span class="inline-block bg-green-600 w-[80%] h-1"></span>
-                                        </div>
-                                        <span class="inline-block pl-2 xl:text-[0.813rem] xl:leading-[1.25rem]">
-                                            78%
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="mt-3">
-                                <div class="w-[95%] border border-gray-300 rounded-lg bg-[#F5F6F8] mx-auto p-2">
-                                    <img src="../assets/images/chart-3.png" alt="chart img 1" class="h-[9.375rem]">
-                                </div>
-                                <div class="w-[95%] border border-gray-300 rounded-lg bg-[#F5F6F8] mx-auto p-2 mt-2">
-                                    <img src="../assets/images/chart-4.png" alt="chart img 1" class="h-[9.375rem]">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="w-[15.688rem] bg-white rounded-lg ml-4">
-                            <div class="pt-4 px-2">
-                                <h2 class="font-sofia text-[#181818] font-[700] xl:text-[1.125rem] xl:leading-[1.438rem] border-b border-gray-200 pb-2">Scenario 4</h2>
                                 <div>
-                                    <span class="font-sofia text-[#666666] xl:text-[0.75rem] xl:leading-[1.125rem] inline-block pt-2">Created By</span>
-                                    <div class="flex justify-between">
-                                        <div>
-                                            <p class="font-sofia text-[#181818] font-[400] xl:text-[0.813rem] xl:leading-[1.25rem] pt-1">
-                                                Andrew Flintoff
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <p class="bg-[#F3F3F3] px-2 py-1 rounded-full text-[#181818] xl:text-[0.75rem] font-[600]">Internal</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mt-3">
-                                <ul>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%]">
-                                        $ 1,135,000
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        22 Months
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        - - -
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="border-r border-gray-200 pr-2">
-                                            22%
-                                        </div>
-                                        <div class="pl-2">
-                                            $36,000
-                                        </div>
-                                    </li>
-                                    <li class="flex justify-center items-center mx-auto border border-gray-400 rounded bg-[#F5F6F8] text-[#181818] font-sofia xl:text-[1rem] xl:leading-[1.25rem] xl:font-[700] py-2 w-[95%] mt-3">
-                                        <div class="bg-red-700 w-[70%] h-2 rounded-full">
-                                            <span class="inline-block bg-green-600 w-[80%] h-1"></span>
-                                        </div>
-                                        <span class="inline-block pl-2 xl:text-[0.813rem] xl:leading-[1.25rem]">
-                                            78%
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="mt-3">
-                                <div class="w-[95%] border border-gray-300 rounded-lg bg-[#F5F6F8] mx-auto p-2">
-                                    <img src="../assets/images/chart-3.png" alt="chart img 1" class="h-[9.375rem]">
-                                </div>
-                                <div class="w-[95%] border border-gray-300 rounded-lg bg-[#F5F6F8] mx-auto p-2 mt-2">
-                                    <img src="../assets/images/chart-1.png" alt="chart img 1" class="h-[9.375rem]">
+                                    <button type="button" class="font-[Nunito] bg-gray-200 rounded-full px-1 py-1 text-[0.75rem]">Internal</button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex px-6">
-                        <div class="border-r mt-4 p-1 pl-4">
-                            <p class="xl:text-[0.813rem] xl:leading-[1.25rem]">Comments</p>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0002]">
+                        <div class="pt-4 px-2">
+                            <h2 class="font-semibold pb-2.5 border-b border-b-[#e5e5e5] text-[18px] leading-[23px]">Scenario 3</h2>
                         </div>
-                        <div class="px-7">
-                            <p class="xl:text-[0.813rem] xl:leading-[1.25rem]">ONE This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                        </div>
-                        <div class="">
-                            <p class="xl:text-[0.813rem] xl:leading-[1.25rem]">Two This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                        </div>
-                        <div class="pl-7">
-                            <p class="xl:text-[0.813rem] xl:leading-[1.25rem]">Three This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                        </div>
-                        <div class="px-7">
-                            <p class="xl:text-[0.813rem] xl:leading-[1.25rem]">Four This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                        </div>
-                    </div>
-                </div> -->
-            <!-- Main Content End Here -->
-
-            <div class="max-w-[1280px]  mx-auto bg-[#EEF4FF] flex-col">
-                <div class="flex justify-around items-stretch pt-20">
-                    <div class="w-20 px-10 bg-white rounded-t-lg"></div>
-                    <div class="w-[15.688rem] bg-white rounded-3xl flex-col">
-                        <div class="pt-2 px-4">
-                        <h2 class="font-semibold pb-1 border-b border-b-gray-300 text-[18px] leading-[23px]">
-                            Scenario 1
-                        </h2>
-                        </div>
-                        <div class="px-4">
-                        <span class="text-lg text-red-500">Created By</span>
-                        <div class="flex justify-between items-center">
-                            <div>
-                            <h6 class="text-[13px] leading-[20px]">Andrew Flintoff</h6>
+                        <div class="px-2">
+                            <span class="font-[Nunito] text-[12px] text-[#666666]">Created By</span>
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h6 class="font-[Nunito] text-[13px] leading-[20px]">Andrew Flintoff</h6>
+                                </div>
+                                <div>
+                                    <button type="button" class="font-[Nunito] bg-gray-200 rounded-full px-1 py-1 text-[0.75rem]">Internal</button>
+                                </div>
                             </div>
-                            <div>
-                            <button type="button" class="bg-gray-200 rounded-full px-1 py-1">Internal</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
 
-                    <div class="w-[15.688rem] bg-white rounded-t-lg flex-col">
-                        <div class="pt-2 px-4">
-                        <h2 class="font-semibold pb-1 border-b border-b-gray-300 text-[18px] leading-[23px]">Scenario 2</h2>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white rounded-t-lg flex-col shadow-sm shadow-[#0002]">
+                        <div class="pt-4 px-2">
+                            <h2 class="font-[Nunito] font-semibold pb-2.5 border-b border-b-[#e5e5e5] text-[18px] leading-[23px]">Scenario 4</h2>
                         </div>
-                        <div class="px-4">
-                        <span class="text-[12px]">Created By</span>
-                        <div class="flex justify-between items-center">
-                            <div>
-                            <h6 class="text-[13px] leading-[20px]">Andrew Flintoff</h6>
+                        <div class="px-2">
+                            <span class="font-[Nunito] text-[12px] text-[#666666]">Created By</span>
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h6 class="font-[Nunito] text-[13px] leading-[20px]">Andrew Flintoff</h6>
+                                </div>
+                                <div>
+                                    <button type="button" class="font-[Nunito] bg-gray-200 rounded-full px-1 py-1 text-[0.75rem]">Internal</button>
+                                </div>
                             </div>
-                            <div>
-                            <button type="button" class="bg-gray-200 rounded-full px-1 py-1">Internal</button>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="w-[15.688rem] bg-white rounded-t-lg flex-col">
-                        <div class="pt-2 px-4">
-                        <h2 class="font-semibold pb-1 border-b border-b-gray-300 text-[18px] leading-[23px]">Scenario 3</h2>
-                        </div>
-                        <div class="px-4">
-                        <span class="text-[12px]">Created By</span>
-                        <div class="flex justify-between items-center">
-                            <div>
-                            <h6 class="text-[13px] leading-[20px]">Andrew Flintoff</h6>
-                            </div>
-                            <div>
-                            <button type="button" class="bg-gray-200 rounded-full px-1 py-1">Internal</button>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="w-[15.688rem] bg-white rounded-t-lg flex-col">
-                        <div class="pt-2 px-4">
-                        <h2 class="font-semibold pb-1 border-b border-b-gray-300 text-[18px] leading-[23px]">Scenario 4</h2>
-                        </div>
-                        <div class="px-4">
-                        <span class="text-[12px]">Created By</span>
-                        <div class="flex justify-between items-center">
-                            <div>
-                            <h6 class="text-[13px] leading-[20px]">Andrew Flintoff</h6>
-                            </div>
-                            <div>
-                            <button type="button" class="bg-gray-200 rounded-full px-1 py-1">Internal</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-around items-stretch mx-auto">
-                    <div class="px-6 bg-white border-t border-t-gray-400 mb-20">
-                        <img src="../assets/icon/icons/dollar.svg" class="w-0">
+                <div class="flex justify-between items-stretch mx-auto">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0002]">
+                        <div class="-ml-4 w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 left-7"></div>
+                        <img src="./assets/icon/icons/dollar.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="w-[15.688rem] bg-white">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500">
-                            <h3>$ 1,135,000</h3>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:-text-[0.875rem] xl:text-[1rem] xl:leading-[1.25rem]">$ 1,135,000</h3>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500">
-                            <h3>$ 1,135,000</h3>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">$ 1,135,000</h3>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500">
-                            <h3>$ 1,135,000</h3>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#ffa500] border-l-[5px] border-l-[#ffa500] rounded shadow shadow-[#0003]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]"> $ 1,135,000</h3>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500">
-                            <h3>$ 1,135,000</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex justify-around items-stretch mx-auto">
-                    <div class="px-6 bg-white border-t border-t-gray-400 pt-1">
-                        <img src="../assets/icon/icons/time.svg" class="">
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500">
-                            <h3>36 Month</h3>
-                        </div>
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500">
-                            <h3>30 Month</h3>
-                        </div>
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500">
-                            <h3>26 Month</h3>
-                        </div>
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500">
-                            <h3>22 Month</h3>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#FF0000] border-l-[5px] rounded shadow-sm shadow-[#0002]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">$ 1,135,000</h3>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-around items-stretch mx-auto">
-                    <div class="px-2 bg-white border-t border-t-gray-400 pt-3">
-                        <img src="../assets/icon/icons/persent.svg" class="w-[4rem]">
+                <div class="flex justify-between items-stretch mx-auto">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0002]">
+                        <div class="-ml-4 w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 left-7"></div>
+                        <img src="../assets/icon/icons/time.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                            <p>26%</p>
-                            <p>$40,000</p>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                36 Months
+                            </h3>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                            <p>28%</p>
-                            <p>$44,000</p>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                30 Months
+                            </h3>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="w-[15.688rem] bg-white">
-                            <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                                <p>30%</p>
-                                <p>$48,000</p>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                26 Months
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <h3 class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                22 Months
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-stretch mx-auto">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0002]">
+                        <div class="-ml-4 w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 left-7"></div>
+                        <img src="/assets/icon/icons/persent-new.svg" class="w-[30px] h-[30px]">
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow shadow-[#0002] md:space-x-2 lg:space-x-3">
+                            <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                26%
+                            </p>
+                            <div class="border border-r border-gray-200 h-4"></div>
+                            <p class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                $40,000
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002] md:space-x-2 lg:space-x-3">
+                            <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                28%
+                            </p>
+                            <div class="border border-r border-gray-200 h-4"></div>
+                            <p class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                $44,000
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002] md:space-x-2 lg:space-x-3">
+                            <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                30%
+                            </p>
+                            <div class="border border-r border-gray-200 h-4"></div>
+                            <p class="font-[Nunito] font-bold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                $48,000
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002]">
+                            <h3  class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">---</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-stretch mx-auto">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] xl:px-[1.563rem] relative bg-white md:pt-1 lg:pt-1 xl:pt-2 shadow-sm shadow-[#0002]">
+                        <div class="-ml-4 w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 left-7"></div>
+                        <img src="/assets/icon/icons/up.svg" class="w-[30px] h-[30px]">
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 rounded border border-[#b3b3b3] md:space-x-2 lg:space-x-3 shadow-sm shadow-[#0002]">
+                            <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">---</p>
+                        </div>
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-2 lg:space-x-3 shadow-sm shadow-[#0002]">
+                            <p class="font-[Nunito] font-[700] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                14%
+                            </p>
+                            <div class="border border-r border-gray-200 h-4"></div>
+                            <p class="font-[Nunito] font-[700] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                $22,000
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-2  lg:space-x-3 shadow-sm shadow-[#0002]">
+                            <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                18%
+                            </p>
+                            <div class="border border-r border-gray-200 h-4"></div>
+                            <p class="font-[Nunito] font-[700] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                $28,000
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded shadow-sm shadow-[#0002] md:space-x-2 lg:space-x-3">
+                            <p class="font-[Nunito] font-semibold md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                22%
+                            </p>
+                            <div class="border border-r border-gray-200 h-4"></div>
+                            <p class="font-[Nunito] font-[700] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
+                                $36,000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-stretch mx-auto">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-2 lg:pt-1 xl:pt-3 shadow-sm shadow-[#0002]">
+                        <div class="-ml-4 w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 left-7"></div>
+                        <img src="/assets/icon/icons/dollar-with-hands.svg" class="w-[30px] h-[30px]">
+                    </div>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
+                            <div class="bg-[#C9C9C9] w-[90%] p-1 rounded-full relative">
+                                <span class="inline-block bg-[#4EBC9B] w-[78%] h-full absolute top-0 left-0  rounded-full"></span>
                             </div>
-                        </div>
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500">
-                            <h3>---</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex justify-around items-stretch mx-auto">
-                    <div class="px-6 bg-white border-t border-t-gray-400 pt-3">
-                        <img src="../assets/icon/icons/up.svg" class="w-0">
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                            <p>---</p>
-                        </div>
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                            <p>14%</p>
-                            <p>$22,000</p>
-                        </div>
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="w-[15.688rem] bg-white">
-                            <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                                <p>18%</p>
-                                <p>$28,000</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                            <p>22%</p>
-                            <p>$36,000</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex justify-around items-stretch mx-auto">
-                    <div class="px-6 bg-white border-t border-t-gray-400 pt-3">
-                        <img src="../assets/icon/icons/dollar-with-hands.svg" class="w-0">
-                    </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                            <div class="bg-red-700 w-[70%] h-2 rounded-full">
-                                <span class="inline-block bg-green-600 w-[80%] h-1"></span>
-                            </div>
-                            <span class="inline-block pl-2 xl:text-[0.813rem] xl:leading-[1.25rem]">
+                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 78%
                             </span>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                            <div class="bg-red-700 w-[70%] h-2 rounded-full">
-                                <span class="inline-block bg-green-600 w-[80%] h-1"></span>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
+                            <div class="bg-[#C9C9C9] w-[90%] p-1 rounded-full relative">
+                                <span class="inline-block bg-[#4EBC9B] w-[78%] h-full absolute top-0 left-0  rounded-full"></span>
                             </div>
-                            <span class="inline-block pl-2 xl:text-[0.813rem] xl:leading-[1.25rem]">
+                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 78%
                             </span>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                            <div class="bg-red-700 w-[70%] h-2 rounded-full">
-                                <span class="inline-block bg-green-600 w-[80%] h-1"></span>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
+                            <div class="bg-[#C9C9C9] w-[90%] p-1 rounded-full relative">
+                                <span class="inline-block bg-[#4EBC9B] w-[78%] h-full absolute top-0 left-0  rounded-full"></span>
                             </div>
-                            <span class="inline-block pl-2 xl:text-[0.813rem] xl:leading-[1.25rem]">
+                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 78%
                             </span>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2">
-                            <div class="bg-red-700 w-[70%] h-2 rounded-full">
-                                <span class="inline-block bg-green-600 w-[80%] h-1"></span>
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pb-3 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] rounded md:space-x-1 lg:space-x-2 px-2 shadow-sm shadow-[#0002]">
+                            <div class="bg-[#C9C9C9] w-[90%] p-1 rounded-full relative">
+                                <span class="inline-block bg-[#4EBC9B] w-[78%] h-full absolute top-0 left-0  rounded-full"></span>
                             </div>
-                            <span class="inline-block pl-2 xl:text-[0.813rem] xl:leading-[1.25rem]">
+                            <span class="font-[Nunito] inline-block pl-1 font-[600] md:text-[0.75rem] md:leading-normal lg:text-[1rem] lg:leading-[1.25rem]">
                                 78%
                             </span>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-around items-stretch mx-auto">
-                    <div class="px-6 bg-white border-t border-t-gray-400 pt-3">
-                        <img src="../assets/icon/icons/dollar-with-hands.svg" class="w-0">
+                <div class="flex justify-between items-stretch mx-auto">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-3 shadow-sm shadow-[#0002]">
+                        <div class="-ml-4 w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 left-7"></div>
+                        <img src="/assets/icon/icons/users.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2 p-2">
-                            <img src="../assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white lg:pt-1 lg:pb-1.5 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2 rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png" class="">
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2 p-2">
-                            <img src="../assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white lg:pt-1 lg:pb-1.5 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2 rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png" alt="">
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2 p-1">
-                            <img src="../assets/images/chart-2.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white lg:pt-1 lg:pb-1.5 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2 rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png" alt="">
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2 p-2">
-                            <img src="../assets/images/chart-3.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white lg:pt-1 lg:pb-1.5 shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2 rounded shadow-sm shadow-[#0002]">
+                            <img src="/assets/images/chart-1.png" alt="">
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-around items-stretch mx-auto">
-                    <div class="px-6 bg-white border-t border-t-gray-400 pt-3">
-                        <img src="../assets/icon/icons/causion.svg" class="w-0">
+                <div class="flex justify-between items-stretch mx-auto">
+                    <div class="md:px-[0.438rem] lg:px-[1.063rem] relative xl:px-[1.563rem] bg-white md:pt-1 lg:pt-1 xl:pt-3 shadow-sm shadow-[#0002]">
+                        <div class="-ml-4 w-[55px] h-[1px] bg-[#e5e5e5] absolute top-0 left-7"></div>
+                        <img src="/assets/icon/icons/causion.svg" class="w-[30px] h-[30px]">
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2 p-2">
-                            <img src="../assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pt-1 pb-2 rounded-b shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2  rounded">
+                            <img src="/assets/images/chart-1.png" alt="">
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2 p-2">
-                            <img src="../assets/images/chart-1.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pt-1 pb-2 rounded-b shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2  rounded">
+                            <img src="./assets/images/chart-1.png" alt="">
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2 p-1">
-                            <img src="../assets/images/chart-2.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pt-1 pb-2 rounded-b shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2  rounded">
+                            <img src="/assets/images/chart-1.png" alt="">
                         </div>
                     </div>
-                    <div class="w-[15.688rem] bg-white py-2">
-                        <div class="bg-green-500 w-[90%] flex justify-center items-center mx-auto py-2 border border-red-500 space-x-2 p-2">
-                            <img src="../assets/images/chart-3.png" alt="">
+                    <div class="md:w-[9.438rem] lg:w-[12.75rem] xl:w-[16rem] bg-white pt-1 pb-2 rounded-b shadow-sm shadow-[#0002]">
+                        <div class="bg-[#F5F6F8] w-[92%] flex justify-center items-center mx-auto py-2 border border-[#b3b3b3] p-2  rounded">
+                            <img src="./assets/images/chart-1.png" alt="">
                         </div>
                     </div>
                 </div>
                 
-                <div class="flex justify-around items-stretch mx-auto mt-10">
-                    <div class="px-0 border-t border-t-gray-400 pt-3">
-                        <span class="text-sm">Comments</span>
+                <div class="flex justify-between items-stretch mx-auto mt-1">
+                    <div class="md:pl-0 md:pr-1 lg:pl-0 lg:pr-2">
+                        <span class="font-[Nunito] md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] font-[400]">Comments</span>
                     </div>
-                    <div class="w-[15.688rem] py-2">
+
+                    <div  class="border-r border-r-gray-200"></div>
+
+                    <div class="w-[15.688rem] py-2 pl-2">
                         <div>
-                            <p>This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                            <p class="font-[Nunito] md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] text-[#181818] font-[400]">
+                                This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                            </p>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] py-2">
-                        <div class="">
-                            <p>This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                        </div>
-                    </div>
-                    <div class="w-[15.688rem] py-2">
+                    
+                    <div  class="border-r border-r-gray-200"></div>
+
+                    <div class="w-[15.688rem] py-2 pl-2 ">
                         <div>
-                            <p>This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                            <p class="font-[Nunito]  md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] text-[#181818] font-[400]">
+                                This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                            </p>
                         </div>
                     </div>
-                    <div class="w-[15.688rem] py-2">
+
+                    <div  class="border-r border-r-gray-200"></div>
+
+                    <div class="w-[15.688rem] py-2 pl-2">
                         <div>
-                            <p>This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                            <p class="font-[Nunito]  md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] text-[#181818] font-[400]">
+                                This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                            </p>
                         </div>
                     </div>
+
+                    <div  class="border-r border-r-gray-200"></div>
+
+                    <div class="w-[15.688rem] py-2 pl-2">
+                        <div>
+                            <p class="font-[Nunito]  md:text-[0.625rem] md:leading-normal lg:text-[0.813rem] lg:leading-[1.25rem] text-[#181818] font-[400]">
+                                This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div  class="border-r border-r-gray-200"></div>
                 </div>
             </div>
         </div>
